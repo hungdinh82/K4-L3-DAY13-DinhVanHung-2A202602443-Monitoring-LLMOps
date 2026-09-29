@@ -1,0 +1,12 @@
+Runtime request_received evidence:
+correlation_id=req-evidence01
+message_preview=Contact me at [REDACTED_EMAIL] or [REDACTED_PHONE_VN]; CCCD [REDACTED_CCCD]; car...
+user_id_hash=1b7aa7465be4
+
+Direct scrubber output:
+Email [REDACTED_EMAIL]; phone [REDACTED_PHONE_VN]; CCCD [REDACTED_CCCD]; card [REDACTED_CREDIT_CARD]
+
+Independent validator result:
+Potential PII leaks detected: 0
+
+Covered by tests: email, common Vietnamese phone formats, CCCD, and payment card formats.

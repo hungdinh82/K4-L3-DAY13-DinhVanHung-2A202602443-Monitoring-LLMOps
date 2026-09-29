@@ -7,7 +7,14 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  error_budget:
+    allowed_bad_events_per_1000_requests: 5
+    equivalent_unavailable_minutes_per_28d: 201.6
+  rationale: >-
+    Baseline P95 khi bật Langfuse tracing là khoảng 1.2 giây, nên ngưỡng 3 giây
+    giữ đủ headroom cho network jitter nhưng vẫn phát hiện rõ sự cố rag_slow 2.5 giây.
+    Mục tiêu 99.5% cho phép tối đa 0.5% request lỗi hoặc chậm trong cửa sổ 28 ngày,
+    tương đương 5 bad events trên mỗi 1,000 requests hoặc 201.6 phút nếu quy đổi theo thời gian.
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5

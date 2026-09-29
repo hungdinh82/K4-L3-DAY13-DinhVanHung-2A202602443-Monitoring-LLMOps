@@ -1,0 +1,15 @@
+Prompt name: day13-chat
+Type: text
+
+Version 1 labels: baseline, production
+Version 1 template:
+Feature={{feature}}
+Docs={{docs}}
+Question={{message}}
+
+Version 2 labels: candidate, latest
+Version 2 change: adds a concise grounded-answer instruction.
+
+Verified trace IDs:
+baseline/v1: 29360efc004ab54bac1a7cd326c8d019
+candidate/v2: 129f916066dc3962d06a0a36848c4c92

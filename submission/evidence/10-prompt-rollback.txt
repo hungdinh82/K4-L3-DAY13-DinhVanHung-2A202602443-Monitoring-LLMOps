@@ -1,0 +1,13 @@
+Prompt: day13-chat
+
+Promote evidence:
+production -> version 2
+Trace ID: 238291c6070e959e0adc58cf7a3c9115
+
+Rollback evidence:
+production -> version 1
+Trace ID: b1f0d8dfec38879e3c17a989373c2868
+
+Final verified state:
+version 1 labels: baseline, production
+version 2 labels: candidate, latest

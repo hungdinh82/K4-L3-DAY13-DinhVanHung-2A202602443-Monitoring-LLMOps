@@ -1,0 +1,15 @@
+Runtime URL: http://127.0.0.1:8000/dashboard
+Source: data/logs.jsonl
+Time range: last 60 minutes
+Refresh: 30 seconds
+Records: 44
+Completed requests: 20
+
+Latency: P50=2669 ms, P95=5033 ms, P99=5033 ms, TTFT P95=56 ms; threshold P95 <= 3000 ms
+Traffic: 20 requests; threshold >= 1 request/minute
+Errors: 0.0%; retrieval success=100.0%; threshold error rate <= 2%
+Cost: total USD 0.040863; threshold <= USD 2.5
+Tokens: input=676, output=2589; threshold <= 50000
+Quality: average=0.88; threshold >= 0.75
+
+The browser runtime was visually verified to show all six panels, units, time range, and threshold lines.

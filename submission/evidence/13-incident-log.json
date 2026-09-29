@@ -1,0 +1,16 @@
+{
+  "challenge_id": "day13-k4-l3a-monitoring-llmops-v1",
+  "scenario": "rag_slow",
+  "event": "response_sent",
+  "correlation_id": "req-3ea7c5a3",
+  "session_id": "k4-l3a-challenge-s01",
+  "feature": "monitoring",
+  "latency_ms": 2665,
+  "ttft_ms": 55,
+  "tool_name": "retrieval",
+  "tool_success": true,
+  "model": "claude-sonnet-4-5",
+  "env": "dev",
+  "user_id_hash": "dde2e75b20cf",
+  "ts": "2026-09-29T08:38:52.820435Z"
+}

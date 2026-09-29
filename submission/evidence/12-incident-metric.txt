@@ -1,0 +1,10 @@
+OFFICIAL CHALLENGE — K4-L3A
+Challenge ID: day13-k4-l3a-monitoring-llmops-v1
+Scenario: rag_slow
+Affected feature: monitoring
+Window: 2026-09-29T08:38:42Z to 2026-09-29T08:38:55Z
+Challenge latency threshold: 2000 ms
+Service latency P95: 2666 ms (5/5 requests exceeded 2000 ms)
+Client wall-time P95 under concurrency=5: 13365.5 ms
+TTFT range: 50–55 ms
+Observed symptom: latency exceeded the challenge threshold while TTFT and retrieval success remained healthy.

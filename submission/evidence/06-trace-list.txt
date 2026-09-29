@@ -1,0 +1,19 @@
+Langfuse Observations API evidence, last 2 hours:
+Current UI project name: day13-k4-l3a-2A202602443
+Root observations (lab-agent-run): 45
+Retrieval observations: 35
+Generation observations: 35
+
+Ten trace IDs created by this repository:
+e34a5ea11e0bad5fec3e94b756b3789f
+0343ba73ab1802a13b69e3522bdbdbba
+545d1f915eecfcdce99313530c40fdc9
+a66273348857299c514560475a5f0b6d
+6ec613983c5a9f653fac5d11d52af56a
+535f3d06e8863953f39b572cd185e23e
+7525fb239b1ae2db40098451f4a6d3e5
+7929ff336fe857f8110f8fcf273da760
+54e19aaf76a73049aedeee0826011dcf
+8f6c37c793fb4e5097c3e89bc5651277
+
+UI screenshot: 06-trace-list.png (project name visible, 115 observations listed, no API keys shown).

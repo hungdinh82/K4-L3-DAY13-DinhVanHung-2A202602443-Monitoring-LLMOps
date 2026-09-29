@@ -1,0 +1,9 @@
+Trace ID: 1e10f2ebfb30c0ac42ae91fe24af8577
+Correlation ID: req-66bf4340
+Feature: qa
+Model: claude-sonnet-4-5
+Environment: dev
+Prompt: day13-chat, label=production, version=1
+Generation usage: input=36, output=112, total=148 tokens
+Generation cost: USD 0.001788
+Capture policy: raw request/response disabled; sanitized preview only

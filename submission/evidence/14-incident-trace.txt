@@ -1,0 +1,10 @@
+OFFICIAL CHALLENGE — K4-L3A
+Challenge ID: day13-k4-l3a-monitoring-llmops-v1
+Correlation ID: req-3ea7c5a3
+Trace ID: ffda71fb3e9e0f08bb5a23bca5eba191
+
+lab-agent-run: 2.67 s
+retrieval: 2.51 s
+fake-llm-generation: 0.16 s
+
+Conclusion: retrieval accounts for nearly all root duration while generation remains short, matching the official rag_slow incident.

@@ -1,0 +1,8 @@
+Trace ID: 1e10f2ebfb30c0ac42ae91fe24af8577
+Correlation ID: req-66bf4340
+
+lab-agent-run (AGENT): 2.674 s, parent=None
+  retrieval (RETRIEVER): 2.507 s, parent=6d0635f10588379e
+  fake-llm-generation (GENERATION): 0.163 s, parent=6d0635f10588379e
+
+Both child observations share the root observation ID as their parent.

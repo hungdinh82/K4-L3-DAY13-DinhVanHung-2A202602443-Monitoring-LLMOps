@@ -1,0 +1,20 @@
+{
+  "service": "api",
+  "latency_ms": 2672,
+  "ttft_ms": 55,
+  "tokens_in": 36,
+  "tokens_out": 112,
+  "cost_usd": 0.001788,
+  "quality_score": 0.9,
+  "tool_name": "retrieval",
+  "tool_success": true,
+  "event": "response_sent",
+  "session_id": "s01",
+  "correlation_id": "req-66bf4340",
+  "model": "claude-sonnet-4-5",
+  "env": "dev",
+  "feature": "qa",
+  "user_id_hash": "2055254ee30a",
+  "level": "info",
+  "ts": "2026-09-29T07:54:07.315561Z"
+}

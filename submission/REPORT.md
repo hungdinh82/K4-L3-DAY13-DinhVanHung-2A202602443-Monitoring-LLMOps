@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602443
 - **Lớp:** K4-L3A
 - **Repository URL:** https://github.com/hungdinh82/K4-L3-DAY13-DinhVanHung-2A202602443-Monitoring-LLMOps
-- **Commit SHA cuối:** Chưa tạo commit nộp cuối
+- **Commit SHA chứa source và evidence:** `dbef0c4` (`feat: complete LLMOps monitoring submission`); SHA nộp cuối là `HEAD` trên remote `main` sau commit báo cáo này.
 - **Challenge ID:** `day13-k4-l3a-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3a-2A202602443`
 
@@ -99,11 +99,11 @@
 - **Cách hiểu luồng Metrics → Logs → Traces:** Dashboard chỉ ra khoảng thời gian/P95 bất thường; structured log cung cấp request cụ thể qua `correlation_id`; trace cùng ID phân rã root thành retrieval và generation để xác định span chậm.
 - **Vai trò của prompt version, token/cost, SLO hoặc rollback trong vận hành LLM:** Prompt version/label giúp nối thay đổi hành vi với request và rollback nhanh; token/cost phát hiện output phình; SLO và error budget chuyển chất lượng vận hành thành ngưỡng đo được thay vì đánh giá cảm tính.
 - **Điều quan trọng nhất đã học:** Một hệ AI chỉ điều tra được khi metric, log và trace dùng chung định danh và khi dữ liệu quan sát đủ chi tiết nhưng không chứa PII.
-- **Hạn chế hoặc phần chưa hoàn thành, nếu có:** Dashboard tổng hợp cửa sổ 60 phút nên P99 còn chịu ảnh hưởng từ workload practice trước đó; kết luận challenge official dùng request window, correlation ID và trace ID nêu trên. Cần tạo commit/push cuối sau khi kiểm tra lại toàn bộ evidence.
+- **Hạn chế hoặc phần chưa hoàn thành, nếu có:** Dashboard tổng hợp cửa sổ 60 phút nên P99 còn chịu ảnh hưởng từ workload practice trước đó; kết luận challenge official dùng request window, correlation ID và trace ID nêu trên.
 
 ## 9. Checklist trước khi nộp
 
-- [ ] Kết quả và evidence thuộc commit SHA cuối.
+- [x] Kết quả và evidence thuộc commit đã push lên `main`.
 - [x] Tất cả output text/JSON hiện có mở được bằng đường dẫn tương đối.
 - [x] Incident evidence nối đúng metric → log → trace.
 - [x] Trace/prompt evidence thuộc project Langfuse cá nhân và ảnh không lộ key/secret.
